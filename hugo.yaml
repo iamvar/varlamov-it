@@ -10,11 +10,8 @@ languages:
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    title: Project Documentation
     weight: 1
     params:
-      subtitle: en This is my cool site
-      description: en This is my cool site
       social:
         Youtubechannel: UCDsl6JfkKDC21LCIejx4lYg
       home:
@@ -25,13 +22,8 @@ languages:
     languageCode: ru-RU
     languageDirection: ltr
     languageName: Русский
-    title: Документация
-    subtitle: ру This is my cool site
-    description: Ру This is my cool site
     weight: 2
     params:
-      subtitle: 'РУ Reference, Tutorials, and Explanations'
-      description: Py This is my cool site
       social:
         Youtubechannel: UCDsl6JfkKDC21LCIejx4lYg
       home:
@@ -55,9 +47,8 @@ params:
   gitRepo: ''
   fingerprint: ''
   dateFormat: '2006-01-02'
-  title: My cool site
-  images:
-    - /logo.png
+#  images:
+#    - /logo.png
   header:
     desktopMode: fixed
     mobileMode: auto
@@ -119,7 +110,10 @@ params:
       paginate: 6
       defaultHiddenFromHomePage: false
   social:
-    GitHub: iamvar
+    github:
+      id: iamvar
+      Icon:
+        Class: fab fa-github fa-fw
     Linkedin: vladimir-varlamov
     Twitter: ''
     Instagram: ''
