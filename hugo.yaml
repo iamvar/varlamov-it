@@ -109,7 +109,7 @@ params:
     profile:
       enable: true
       gravatarEmail: ''
-      avatarURL: /images/avatar.png
+      avatarURL: /images/avatar.jpg
       title: ''
       typeit: true
       social: true
